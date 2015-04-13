@@ -1,0 +1,42 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 5px;
+	-webkit-box-sizing: border-box;/**/
+	-moz-box-sizing:border-box;/*esto es para moxila*/
+	-ms-box-sizing:border-box;/**/
+	box-sizing:border-box;
+}
+header p {
+	border-radius: 30%;
+}
+body {
+	background: #F0FFF0;
+	color:black;
+}
+div.container {
+	font-size: 15px;
+	position: center;
+	width: 50%;
+	height: 50%;
+	display: block;
+	text-decoration:none;
+}
+section.texto {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+section.texto div {
+	text-align: center;
+	padding: 0 40px;
+}
+section.texto span {
+	border:100px;
+	padding: 50px;
+	background: orange;
+	width: 60%;
+	height: 50%;
+	border-radius: 100px;
+	color:white;
+}
